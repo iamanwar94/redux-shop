@@ -38,7 +38,7 @@ const Products = () => {
                     <img src={product.image} alt="" />
                     <h4>{product.title}</h4>
                     <h5>{product.price}</h5>
-                    <button onClick={() => handleAdd(product)} className="btn">
+                    <button onClick={() => handleAdd(product)} className="btn btn_rel">
                         Add to cart
                     </button>
                 </div>
